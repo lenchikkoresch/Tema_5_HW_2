@@ -14,5 +14,6 @@ for i in range (1000):
     for j in range (1000):
         if i+j == s and i*j == p:
             print (f"Задуманные числа {i} и {j}")
+        break
                  
             
